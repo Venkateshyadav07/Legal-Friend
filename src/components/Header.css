@@ -1,0 +1,38 @@
+.header {
+  background-color: #142433;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #4ba3ff;
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #4ba3ff;
+}

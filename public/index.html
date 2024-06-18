@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝙻𝚎𝚐𝚊𝚕 𝙵𝚛𝚒𝚎𝚗𝚍</title>
+    <style>
+        .chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            z-index: 1000;
+            background-image: url('chatbot-icon.png'); /* Replace with the path to your chatbot image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .help-text {
+            position: fixed;
+            bottom: 110px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+            z-index: 1000;
+        }
+
+        .chatbot-container {
+            position: fixed;
+            bottom: 100px;
+            right: 50px;
+            width: 300px;
+            height: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-button" onmouseover="showHelpText()" onmouseout="hideHelpText()" onclick="toggleChatbot()"></button>
+
+    <!-- Help Text -->
+    <div class="help-text" id="helpText">May I help you?</div>
+
+    <!-- Embedding the Streamlit app -->
+    <iframe class="chatbot-container" id="chatbot-iframe" src="http://localhost:8501"></iframe>
+
+    
+
+    <script>
+        function toggleChatbot() {
+            var chatbot = document.getElementById("chatbot-iframe");
+            var helpText = document.getElementById("helpText");
+            if (chatbot.style.display === "none" || chatbot.style.display === "") {
+                chatbot.style.display = "block";
+                helpText.style.display = "block";
+            } else {
+                chatbot.style.display = "none";
+                helpText.style.display = "none";
+            }
+        }
+
+        function showHelpText() {
+            var helpText = document.getElementById("helpText");
+            helpText.style.display = "block";
+        }
+
+        function hideHelpText() {
+            var helpText = document.getElementById("helpText");
+            helpText.style.display = "none";
+        }
+    </script>
+</body>
+</html>

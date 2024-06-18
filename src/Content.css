@@ -1,0 +1,40 @@
+.futuristic {
+  background-image: url('futuristic-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.futuristic h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.futuristic p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content {
+  background-color: rgba(20, 36, 51, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.content img:hover {
+  transform: scale(1.1);
+}

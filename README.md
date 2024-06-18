@@ -1,36 +1,70 @@
-# Legal-Friend
+# Getting Started with Create React App
 
-React web page integrated with
-legal chatbot developed and trained with dataset using LLM and streamlit .
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-Install Dependencies: If this is the first time running the project on your machine or if dependencies have changed, install the necessary dependencies using npm or yarn:
+In the project directory, you can run:
 
-npm install
-or
-yarn install
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Start the Development Server: Once the dependencies are installed, start the development server:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-npm start
-or
-yarn start
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-View Your Application: Your default browser should automatically open to http://localhost:3000. If it doesn't, open a web browser and go to http://localhost:3000.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Stopping the Server: To stop the development server, press Ctrl + C in the terminal.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-for legal friend chatbot:
+### `npm run eject`
 
-Navigate to Your Project Directory: Open your terminal or command prompt and navigate to your Streamlit app directory. 
-Run Your Streamlit App: Start your Streamlit app by running the following command:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-streamlit run app.py
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Streamlit app should automatically open in your default web browser at http://localhost:8501.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Stopping the Server: To stop the Streamlit development server, press Ctrl + C in the terminal
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
