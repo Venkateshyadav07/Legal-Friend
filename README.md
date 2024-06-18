@@ -9,12 +9,16 @@ Install Dependencies: If this is the first time running the project on your mach
 npm install
 or
 yarn install
+
+
 Start the Development Server: Once the dependencies are installed, start the development server:
 
 
 npm start
 or
 yarn start
+
+
 View Your Application: Your default browser should automatically open to http://localhost:3000. If it doesn't, open a web browser and go to http://localhost:3000.
 
 Stopping the Server: To stop the development server, press Ctrl + C in the terminal.
